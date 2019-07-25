@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Travel Website</title>
+<meta name="keywords" content="free templates, website templates, CSS, XHTML" />
+<meta name="description" content="Simple Gray - Professional free XHTML/CSS template provided by templatemo.com" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-3.2.1.min.js"></script>
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+$( document ).ready(function() {
+	//// Loading Home Page Content ////
+	$("#home_page").click(function() {
+	  $('#div_content').load('home.html');
+	});
+	//// Loading About Us Page Content ////
+	$("#about_page").click(function() {
+	  $('#div_content').load('about.html');
+	});
+	//// Loading Contact Us Page Content ////
+	$("#contact_page").click(function() {
+	  $('#div_content').load('contact.html');
+	});
+	//// Loading Login Page Content ////
+	$("#login_page").click(function() {
+	  $('#div_content').load('login.html');
+	});
+	//// Loading Login Page Content ////
+	$("#gallery_page").click(function() {
+	  $('#div_content').load('gallery.html');
+	});
+	//// Loading Register Page Content ////
+	$("#register_page").click(function() {
+	  $('#div_content').load('register.html');
+	});
+	$('#div_content').load('home.html');
+});
+function showPage(page_name) {
+	$('#div_content').load(page_name);
+}
+</script>
+</head>
+<body>
+<div id="templatemo_header_wrapper">
+<!--  Free Web Templates by TemplateMo.com  -->
+  <div id="templatemo_header">
+    
+   	<div id="site_logo">Travel Website</div>
+        
+		<div id="templatemo_menu">
+      		<div id="templatemo_menu_left"></div>
+            <ul>
+                  <li><a href="#" id="home_page" class="current">Home</a></li>
+                  <li><a href="#" id="about_page" >About Project</a></li>
+                  <li><a href="#" id="gallery_page">Gallery</a></li>
+                  <li><a href="#" id="register_page">Register</a></li>
+                  <li><a href="#" id="login_page">Login</a></li>
+                  <li><a href="#" id="contact_page" class="last">Contact</a></li>
+            </ul>    	
+		</div> <!-- end of menu -->
+    
+    </div>  <!-- end of header -->
+</div> <!-- end of header wrapper -->
+
+<div id="div_content"> Loading ... </div>
+
+<div id="templatemo_footer_wrapper">
+
+	<div id="templatemo_footer">
+    	
+        <div class="section_w180">
+        	<div class="header_05" style="font-weight:bold; text-decoration:underline;">Services</div>
+            <div class="section_w180_content"> 
+            	<ul class="footer_menu_list">
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Cum sociis</a></li>
+                    <li><a href="#">Donec quam</a></li>
+                    <li><a href="#">Nulla consequat</a></li>
+                    <li><a href="#">In enim justo</a></li>              
+                </ul>
+			</div>
+        </div>
+        
+        <div class="section_w180">
+        	<div class="header_05" style="font-weight:bold; text-decoration:underline;">About</div>
+            <div class="section_w180_content">
+                <ul class="footer_menu_list">
+                    <li><a href="#">Nullam quis</a></li>
+                    <li><a href="#">Sed consequat</a></li>
+                    <li><a href="#">Cras dapibus</a></li> 
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Cum sociis</a></li>                
+                </ul>
+            </div>
+        </div>
+                
+        <div class="section_w180" style="font-weight:bold; text-decoration:underline;">
+        	<div class="header_05">Cool links</div>
+            <div class="section_w180_content"> 
+                <ul class="footer_menu_list">
+                    <li><a href="#">Aenean vulputate</a></li>
+                    <li><a href="#">Etiam ultricies</a></li>
+                    <li><a href="#">Nullam quis</a></li>
+                    <li><a href="#">Sed consequat</a></li>
+                    <li><a href="#">Cras dapibus</a></li>             
+                </ul>
+			</div>
+        </div>
+        
+        <div class="section_w180">
+	        <div class="header_05" style="font-weight:bold; text-decoration:underline;">Contact</div>
+            
+            <div class="section_w180_content">
+            
+                <ul class="footer_menu_list">
+                    <li><a href="#">Donec quam</a></li>
+                    <li><a href="#">Nulla consequat</a></li>
+                    <li><a href="#">In enim justo</a></li>    
+                    <li><a href="#">Aenean vulputate</a></li>
+                    <li><a href="#">Etiam ultricies</a></li>           
+                </ul>
+			</div>
+        </div>
+        
+        <div class="section_w180">
+			<div class="header_05" style="font-weight:bold; text-decoration:underline;">Partners</div>  
+            <div class="section_w180_content">      
+                <ul class="footer_menu_list">
+                   <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Cum sociis</a></li>
+                    <li><a href="#">Donec quam</a></li>
+                    <li><a href="#">Nulla consequat</a></li>
+                    <li><a href="#">In enim justo</a></li>         
+                </ul>
+			</div>
+        </div>
+        
+
+        <div class="cleaner"></div>
+    </div>
+</div>
+</body>
+</html>
